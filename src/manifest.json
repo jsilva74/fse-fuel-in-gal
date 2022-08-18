@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "FSE Fuel in Gallons",
+  "version": "1.0.0",
+  "description": "Utility for display fuel in kilos to gallons.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://server.fseconomy.net/goods.jsp"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
